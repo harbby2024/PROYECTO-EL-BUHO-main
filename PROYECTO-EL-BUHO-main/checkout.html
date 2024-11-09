@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>checkout</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<section class="checkout">
+
+   <form action="" method="post">
+      <h3>DATOS DE ENVÍO</h3>
+      <div class="flex">
+         <div class="inputBox">
+            <span>Pais*: </span>
+            <input type="text" name="name" required placeholder="Ingrese tu pais">
+         </div>
+         <div class="inputBox">
+            <span>Departamento</span>
+            <input type="number" name="number" required placeholder="Ingrese tu departamento">
+         </div>
+         <div class="inputBox">
+            <span>Localidad / Comuna</span>
+            <input type="email" name="email" required placeholder="Ingrese tu email">
+         </div>
+         <div class="inputBox">
+            <span>Dirección*</span>
+            <input type="text" name="street" required placeholder="Ingrese tu dirección">
+         </div>
+         <div class="inputBox">
+            <span>Destinatario*</span>
+            <input type="number" required placeholder="Ingresa el nombre de quien recibe">
+         </div>
+         <div class="inputBox">
+            <span>Teléfono*</span>
+            <input type="text" name="city" required placeholder="">
+         </div>
+         <div class="inputBox">
+            <span>Metodo de pago</span>
+            <select name="method">
+               <option value="cash on delivery">PSE</option>
+               <option value="credit card">Tarjeta de crédito</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="Comprar ahora" class="btn" name="order_btn">
+   </form>
+
+</section>
+<script src="js/script.js"></script>
+
+</body>
+</html>
